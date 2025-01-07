@@ -348,27 +348,41 @@ body::-webkit-scrollbar {
   width: 25%;
   height: 100%;
   border: 1px solid red;
-  background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);}
+  background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
+  color: white;
+}
 
 .card2 {
   /* position: absolute; */
   width: 25%;
   height: 100%;
   border: 1px solid green;
-  background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);}
+  background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
+  color: white;
+
+}
 
 .card3 {
   /* position: absolute;  */
   width: 25%;
   height: 100%;
   border: 1px solid yellow;
-  background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);}
+  background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
+  color: white;
+
+}
 
 .card4 {
   /* position: absolute; */
   width: 25%;
   height: 100%;
   border: 1px solid violet;
-  background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);}
+  background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
+  color: white;
+  text-align: start;
+  
+}
+
+
 
   
