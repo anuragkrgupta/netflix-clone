@@ -346,7 +346,7 @@ body::-webkit-scrollbar {
 }
 
 .card1 {
-  /* position: absolute; */
+  position: relative;
   width: 25%;
   height: 100%;
   border-radius: 20px;
@@ -359,7 +359,7 @@ body::-webkit-scrollbar {
 }
 
 .card2 {
-  /* position: absolute; */
+  position: relative;
   width: 25%;
   height: 100%;
   border-radius: 20px;
@@ -373,7 +373,7 @@ body::-webkit-scrollbar {
 }
 
 .card3 {
-  /* position: absolute;  */
+  position: relative; 
   width: 25%;
   height: 100%;
   border-radius: 20px;
@@ -387,7 +387,7 @@ body::-webkit-scrollbar {
 }
 
 .card4 {
-  /* position: absolute; */
+  position: relative;
   width: 25%;
   height: 100%;
   border-radius: 20px;
@@ -409,4 +409,22 @@ body::-webkit-scrollbar {
 .cards p {
   padding-top: 15px;
   font-size: 16px;
+}
+
+.card1 img{
+  position: absolute;
+  bottom: 15px;
+  right: 30px;
+}.card2 img{
+  position: absolute;
+  bottom: 15px;
+  right: 30px;
+}.card3 img{
+  position: absolute;
+  bottom: 15px;
+  right: 30px;
+}.card4 img{
+  position: absolute;
+  bottom: 15px;
+  right: 30px;
 }
