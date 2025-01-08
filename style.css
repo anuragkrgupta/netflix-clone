@@ -119,9 +119,10 @@ body::-webkit-scrollbar {
 
 .first p {
   font-family: "Noto Sans", sans-serif;
-  font-size: 60px;
+  font-size: 56px;
   font-weight: 900;
   color: white;
+  line-height: 70px;
 }
 
 .sec {
@@ -139,13 +140,20 @@ body::-webkit-scrollbar {
 .sec p {
   color: white;
   font-family: "Noto Sans", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
+
   padding-bottom: 10px;
 }
 
 #line1 {
   margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#line2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .sec input {
@@ -160,6 +168,10 @@ body::-webkit-scrollbar {
   cursor: pointer;
   border: 1px solid white;
   padding-top: 6px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .btn-btn {
@@ -173,6 +185,9 @@ body::-webkit-scrollbar {
   background-color: #fc0000;
   color: white;
   border: none;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
   padding: 6px 29px;
   border-radius: 5px;
   cursor: pointer;
@@ -257,9 +272,9 @@ body::-webkit-scrollbar {
 
 .tren span {
   margin: 0 80px;
-  font-size: 22px;
+  font-size: 24px;
   font-family: "Noto Sans", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .sel {
@@ -278,11 +293,12 @@ body::-webkit-scrollbar {
   width: 100%;
   height: 100%;
   padding: 7px 3px;
-  font-size: 14px;
+  font-size: 16px;
   background-color: #000000;
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
+  line-height: 24px;
 
 }
 
@@ -297,6 +313,7 @@ body::-webkit-scrollbar {
   margin: 0px 100px;
   /* justify-content: center; */
   overflow-y: hidden;
+  cursor: pointer;
 
 
 }
@@ -341,7 +358,8 @@ body::-webkit-scrollbar {
   height: 80%;
   margin: 0px 100px;
   gap: 20px;
- 
+
+
   /* position: relative; */
 }
 
@@ -353,7 +371,7 @@ body::-webkit-scrollbar {
   /* border: 1px solid red; */
   background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
   color: white;
-  padding: 30px;
+  padding: 30px 20px;
   font-size: 16px;
   font-family: "Noto Sans", sans-serif;
 }
@@ -366,21 +384,21 @@ body::-webkit-scrollbar {
   /* border: 1px solid green; */
   background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
   color: white;
-  padding: 30px;
+  padding: 30px 20px;
   font-size: 16px;
   font-family: "Noto Sans", sans-serif;
 
 }
 
 .card3 {
-  position: relative; 
+  position: relative;
   width: 25%;
   height: 100%;
   border-radius: 20px;
   /* border: 1px solid yellow; */
   background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
   color: white;
-  padding: 30px;
+  padding: 30px 20px;
   font-size: 16px;
   font-family: "Noto Sans", sans-serif;
 
@@ -394,42 +412,25 @@ body::-webkit-scrollbar {
   /* border: 1px solid violet; */
   background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
   color: white;
-  padding: 30px;
+  padding: 30px 20px;
   font-family: "Noto Sans", sans-serif;
   /* font-weight: 900; */
 
 }
 
-.cards h3{
-  font-size: 20px;
+.cards h3 {
+  font-size: 22px;
   font-weight: 700;
 
 }
 
 .cards p {
   padding-top: 15px;
-  font-size: 16px;
+  font-size: 15px;
+  font-weight: 400;
 }
 
-.card1 img{
-  width: 53px;
-  height: 53px;
-  position: absolute;
-  bottom: 15px;
-  right: 30px;
-}.card2 img{
-  width: 53px;
-  height: 53px;
-  position: absolute;
-  bottom: 15px;
-  right: 30px;
-}.card3 img{
-  width: 53px;
-  height: 53px;
-  position: absolute;
-  bottom: 15px;
-  right: 30px;
-}.card4 img{
+.card1 img {
   width: 53px;
   height: 53px;
   position: absolute;
@@ -437,16 +438,40 @@ body::-webkit-scrollbar {
   right: 30px;
 }
 
-.que{
+.card2 img {
+  width: 53px;
+  height: 53px;
+  position: absolute;
+  bottom: 15px;
+  right: 30px;
+}
+
+.card3 img {
+  width: 53px;
+  height: 53px;
+  position: absolute;
+  bottom: 15px;
+  right: 30px;
+}
+
+.card4 img {
+  width: 53px;
+  height: 53px;
+  position: absolute;
+  bottom: 15px;
+  right: 30px;
+}
+
+.que {
   position: relative;
   /* border: 2px solid red; */
   width: 100vw;
   height: 70vh;
-  background-color:black;
+  background-color: black;
 
 }
 
-.fre{
+.fre {
   position: absolute;
   /* border: 1px solid red; */
   width: 100%;
@@ -459,10 +484,10 @@ body::-webkit-scrollbar {
   /* background: black; */
 }
 
-.questions{
+.questions {
   position: absolute;
   /* border: 1px solid violet; */
-  
+
   width: 100%;
   height: 90%;
   /* bottom: 0; */
@@ -474,36 +499,217 @@ body::-webkit-scrollbar {
   margin: 120px 100px;
 }
 
-.q1, .q2, .q3, .q4, .q5, .q6{
+.q1,
+.q2,
+.q3,
+.q4,
+.q5,
+.q6 {
   /* border: 1px solid yellow; */
   width: 80vw;
   height: 115px;
   color: white;
-  
+
   background-color: #343434;
   font-family: "Noto Sans", sans-serif;
   font-size: 24px;
   font-weight: 400;
   padding: 15px 20px;
   cursor: pointer;
+  position: relative;
 }
-.q1:hover{
-  background: #414141;
-}.q2:hover{
-  background: #414141;
-}.q3:hover{
-  background: #414141;
-}.q4:hover{
-  background: #414141;
-}.q5:hover{
-  background: #414141;
-}.q6:hover{
+
+.q1:hover {
+  transition: 0.2s ease-in-out;
   background: #414141;
 }
 
+.q2:hover {
+  transition: 0.2s ease-in-out;
+  background: #414141;
+}
 
-.contact{
+.q3:hover {
+  transition: 0.2s ease-in-out;
+  background: #414141;
+}
+
+.q4:hover {
+  transition: 0.2s ease-in-out;
+  background: #414141;
+}
+
+.q5:hover {
+  transition: 0.2s ease-in-out;
+  background: #414141;
+}
+
+.q6:hover {
+  transition: 0.2s ease-in-out;
+  background: #414141;
+}
+
+.questions img {
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  display: flex;
+
+  /* right: 30px; */
+  /* top:50%; */
+  transform: translate(72rem, -100%);
+  filter: invert(1);
+}
+
+
+.contact {
   width: 100%;
-  height: 455px;
+  height: 300px;
   background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact span {
+  /* position: absolute;
+top: 80px; */
+  margin-top: 140px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+
+.btn-btn-last {
+  /* position: absolute;
+  top: 120px; */
+  display: flex;
+  text-align: center;
+  gap: 8px;
+
+}
+
+.btn-btn-last p {
+  background-color: #fc0000;
+  color: white;
+  border: none;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 6px 29px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+/* .btn-btn-last:hover{
+  background: #d90808;
+  transition: 0.3s ease-in-out;
+} */
+
+.btn-btn-last input {
+  background-color: #000000;
+  filter: transparent;
+  color: white;
+  width: 476px;
+  height: 50px;
+  padding-left: 15px;
+  /* padding: 7px 20px; */
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid white;
+  padding-top: 6px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+footer {
+  
+  width: 100%;
+  height: 400px;
+  background-color: black;
+}
+
+footer p {
+  color: white;
+  margin: 0px 100px;
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.texts {
+  position: relative;
+  display: flex;
+  border: 2px solid rgb(132, 0, 255);
+  width: 82%;
+  height: 80%;
+  margin: 0px 100px;
+  gap: 20px;
+}
+
+.t1 {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  /* border-radius: 20px; */
+  border: 1px solid red;
+  /* background: linear-gradient(149deg, #192247 0%, #210e17 99.08%); */
+  color: white;
+  padding: 30px 20px;
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.t2 {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  /* border-radius: 20px; */
+  border: 1px solid red;
+  /* background: linear-gradient(149deg, #192247 0%, #210e17 99.08%); */
+  color: white;
+  padding: 30px 20px;
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.t3 {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  /* border-radius: 20px; */
+  border: 1px solid red;
+  /* background: linear-gradient(149deg, #192247 0%, #210e17 99.08%); */
+  color: white;
+  padding: 30px 20px;
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.t4 {
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  /* border-radius: 20px; */
+  border: 1px solid red;
+  /* background-color: red; */
+  /* background: linear-gradient(149deg, #192247 0%, #210e17 99.08%); */
+  color: white;
+  padding: 30px 20px;
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+
 }
