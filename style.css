@@ -620,7 +620,7 @@ top: 80px; */
   background-color: #000000;
   filter: transparent;
   color: white;
-  width: 476px;
+  width: 525px;
   height: 50px;
   padding-left: 15px;
   /* padding: 7px 20px; */
@@ -635,81 +635,101 @@ top: 80px; */
 }
 
 footer {
-  
   width: 100%;
-  height: 400px;
+  height: 480px;
   background-color: black;
+  position: relative;
 }
 
-footer p {
-  color: white;
+footer #fff {
+
+  color: rgba(255, 255, 255, 0.7);
   margin: 0px 100px;
-  color: white;
   font-family: "Noto Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
+  padding:50px 0px ;
 }
 
 .texts {
-  position: relative;
+  /* position: relative; */
   display: flex;
-  border: 2px solid rgb(132, 0, 255);
+  /* border: 2px solid rgb(132, 0, 255); */
   width: 82%;
-  height: 80%;
+  height: auto;
   margin: 0px 100px;
-  gap: 20px;
+  /* gap: 20px; */
 }
 
 .t1 {
-  position: absolute;
+  /* position: absolute; */
   width: 25%;
   height: 100%;
   /* border-radius: 20px; */
-  border: 1px solid red;
-  /* background: linear-gradient(149deg, #192247 0%, #210e17 99.08%); */
-  color: white;
-  padding: 30px 20px;
-  font-size: 16px;
-  font-family: "Noto Sans", sans-serif;
+  /* border: 1px solid red; */
+  
 }
 
 .t2 {
-  position: absolute;
+  /* position: absolute; */
   width: 25%;
   height: 100%;
   /* border-radius: 20px; */
-  border: 1px solid red;
-  /* background: linear-gradient(149deg, #192247 0%, #210e17 99.08%); */
-  color: white;
-  padding: 30px 20px;
-  font-size: 16px;
-  font-family: "Noto Sans", sans-serif;
+  /* border: 1px solid red; */
+
 }
 
 .t3 {
-  position: absolute;
+  /* position: absolute; */
   width: 25%;
   height: 100%;
   /* border-radius: 20px; */
-  border: 1px solid red;
-  /* background: linear-gradient(149deg, #192247 0%, #210e17 99.08%); */
-  color: white;
-  padding: 30px 20px;
-  font-size: 16px;
-  font-family: "Noto Sans", sans-serif;
+  /* border: 1px solid red; */
+  
 }
 
 .t4 {
-  position: absolute;
+  /* position: absolute; */
   width: 25%;
   height: 100%;
   /* border-radius: 20px; */
-  border: 1px solid red;
-  /* background-color: red; */
-  /* background: linear-gradient(149deg, #192247 0%, #210e17 99.08%); */
-  color: white;
-  padding: 30px 20px;
-  font-size: 16px;
+  /* border: 1px solid red; */
+ 
+}
+#ttt{
+  color: rgba(255, 255, 255, 0.7);
+    text-decoration-color: rgba(255, 255, 255, 0.7);
+  line-height: 34px;
+  margin: 10px 10px;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 400;
   font-family: "Noto Sans", sans-serif;
+}
 
+footer select{
+  position: absolute;
+  bottom: 100px;
+  margin: 0px 100px;
+  
+  /* right: 265px; */
+  background-color: #000000;
+  border: 1px solid white;
+  color: white;
+  /* border: none; */
+  padding: 8px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+
+}
+.watermark{
+  position: absolute;
+  bottom: 65px;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0px 120px ;
+  font-size: 12px;
+  font-family: "Noto Sans", sans-serif;
+ font-weight: 400;
 }
